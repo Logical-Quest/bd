@@ -19,6 +19,10 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Baloo+Da');
+      @import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bensen-handwriting/stylesheet.css');
+      @import url('https://fonts.googleapis.com/css?family=Galada');
+      @import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/lal-sabuj-normal/stylesheet.css');
     
     body {
       background: #373B44;  /* fallback for old browsers */
@@ -107,7 +111,11 @@
       font-family: 'Nunito', sans-serif;
       color: #5DADE2;
   }
-
+  .titleb {
+      font-family: 'Nunito', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+  }
   
   a {
       text-decoration: none;
@@ -505,6 +513,23 @@ span.text {
     bottom: 49%;
     opacity: 1;
 }
+@media screen and (max-width: 992px) {
+  .campus-col {
+    flex-basis: 48%; /* Adjust the column width for medium screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campus-col {
+    flex-basis: 100%; /* Display columns as full-width for small screens */
+  }
+}
+
+
+
+
+
+
 
 .card-containerc {
     display: flex;
@@ -525,8 +550,13 @@ span.text {
     text-align: center;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
 }
 
+.cardc:hover {
+  background-color: #333; /* Change background color on hover */
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+}
 .cardc img {
     width: 100px;
     height: 100px;
@@ -616,7 +646,10 @@ span.text {
 }
 .bengali-texta{
   color: #5DADE2;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Baloo Da', cursive;
+}
+.bengali-textb{
+  font-family: 'Baloo Da', cursive;
 }
 
 
@@ -724,29 +757,21 @@ span.text {
 
 
         <br><br><br><br>
-        <center><h3 class="bengali-texta"><b>মাধ্যমিক ও উচ্চমাধ্যমিকে অধ্যয়নরত শিক্ষার্থীদের জন্য পূর্ণাঙ্গ গাইডলাইন</b></h3></center>
+        <center><h3 class="bengali-texta"><b>" মাধ্যমিক ও উচ্চমাধ্যমিকে অধ্যয়নরত শিক্ষার্থীদের জন্য পূর্ণাঙ্গ গাইডলাইন "</b></h3></center>
 
         <br>
         <div class="card-containerc">
           <div class="cardc admission">
               <img src="img/admission.png" alt="HSC Icon">
-              <p>এডমিশন</p>
+              <p class="bengali-textb">এডমিশন</p>
           </div>
           <div class="cardc hsc">
-              <h1>12</h1>
-              <p>দ্বাদশ শ্রেণি</p>
-          </div>
-          <div class="cardc class-10">
-              <h1>11</h1>
-              <p>একাদশ শ্রেণি</p>
+              <h1 class="titleb">11-12</h1>
+              <p class="bengali-textb">একাদশ-দ্বাদশ</p>
           </div>
           <div class="cardc class-9">
-              <h1>10</h1>
-              <p>দশম শ্রেণি</p>
-          </div>
-          <div class="cardc class-8">
-              <h1>9</h1>
-              <p>নবম শ্রেণি</p>
+              <h1 class="titleb">9-10</h1>
+              <p class="bengali-textb">নবম-দশম</p>
           </div>
       </div>
 
