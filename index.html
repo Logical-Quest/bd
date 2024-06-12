@@ -457,6 +457,167 @@ span.text {
   }
 }
 
+/*---------------------------campus------------------------------*/
+
+
+.campus{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;       
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position:relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width:100%;
+    display: block;
+}
+.layer{
+    background: trasparent;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: o;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color:#fff;
+    font-size:26px;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.card-containerc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cardc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardc img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.cardc p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.admission {
+    background: linear-gradient(180deg, #8B5CF6, #6366F1);
+}
+
+.hsc {
+    background: linear-gradient(180deg, #EF4444, #F87171);
+}
+
+.class-10 {
+    background: linear-gradient(180deg, #8B5CF6, #A78BFA);
+}
+
+.class-9 {
+    background: linear-gradient(180deg, #3B82F6, #60A5FA);
+}
+
+.class-8 {
+    background: linear-gradient(180deg, #F59E0B, #FBBF24);
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .cardc {
+        width: 130px;
+        height: 180px;
+    }
+
+    .cardc p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cardc {
+        width: 120px;
+        height: 170px;
+    }
+
+    .cardc p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardc {
+        width: 100px;
+        height: 150px;
+    }
+
+    .cardc p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-containerc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardc {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cardc img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cardc p {
+        font-size: 20px;
+    }
+}
+.bengali-texta{
+  color: yellow;
+}
+
 
 
 
@@ -491,13 +652,13 @@ span.text {
                   <a class="nav-link" href="#advisors">𝐄𝐧𝐫𝐨𝐥𝐥</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://logical-quest.github.io/QnA/" target="_self">𝐐 & 𝐀</a>
+                  <a class="nav-link" href="https://logical-quest.github.io/HSC-Q-A/">𝐐 & 𝐀</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#members">𝐄𝐱𝐚𝐦</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://logical-quest.github.io/Admin/" target="_self">𝐀𝐝𝐦𝐢𝐧</a>
+                  <a class="nav-link" href="https://logical-quest.github.io/HSC-Teacher-Portal/">𝐀𝐝𝐦𝐢𝐧</a>
                 </li>
               </ul>
             </div>
@@ -513,6 +674,8 @@ span.text {
                   <div class="slider">
                  <div class="slides">
       
+                
+                
                 <img src="img/tutorial.png" class="img-fluid rounded" alt="...">
                 <img src="img/header.png" class="img-fluid rounded" alt="...">
                 <img src="img/exam.png" class="img-fluid rounded" alt="...">
@@ -549,36 +712,98 @@ span.text {
         </div>
 
 
- <br><br>
 
-      <!---Counter-->
 
-<div class="wrapper">
-  <div class="containerc">
-    <i class="fab fa-twitter"></i>
-    <span class="num" data-val="350">000</span>
-    <span class="text">Followers</span>
+
+
+
+
+
+
+
+
+        <br><br><br><br>
+        <center><h3 class="bengali-texta"><b>মাধ্যমিক ও উচ্চমাধ্যমিকে অধ্যয়নরত শিক্ষার্থীদের জন্য পূর্ণাঙ্গ গাইডলাইন</b></h3></center>
+
+        <br>
+        <div class="card-containerc">
+          <div class="cardc admission">
+              <img src="img/admission.png" alt="HSC Icon">
+              <p>এডমিশন</p>
+          </div>
+          <div class="cardc hsc">
+              <h1>12</h1>
+              <p>দ্বাদশ শ্রেণি</p>
+          </div>
+          <div class="cardc class-10">
+              <h1>11</h1>
+              <p>একাদশ শ্রেণি</p>
+          </div>
+          <div class="cardc class-9">
+              <h1>10</h1>
+              <p>দশম শ্রেণি</p>
+          </div>
+          <div class="cardc class-8">
+              <h1>9</h1>
+              <p>নবম শ্রেণি</p>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--------------------------campus----------------------------------------->
+<section class="campus">
+  <h1>Our Global Campus</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+  <div class="row">
+      
+      <div class="campus-col">
+          <img src="img/london.png">
+          <div class="layer">
+              <h3>LONDON</h3>
+          </div>
+      </div>
+      <div class="campus-col">
+          <img src="img/newyork.png">
+          <div class="layer">
+              <h3>NEW YORK</h3>
+          </div>
+      </div>
+      <div class="campus-col">
+          <img src="img/washington.png">
+          <div class="layer">
+              <h3>WASHINGTON</h3>
+          </div>
+      </div>
+      
   </div>
-  <div class="containerc">
-    <i class="fab fa-facebook-f"></i>
-    <span class="num" data-val="250">000</span>
-    <span class="text">Followers</span>
-  </div>
-  <div class="containerc">
-    <i class="fab fa-youtube"></i>
-    <span class="num" data-val="325">000</span>
-    <span class="text">Followers</span>
-  </div>
-  <div class="containerc">
-    <i class="fab fa-instagram"></i>
-    <span class="num" data-val="275">000</span>
-    <span class="text">Followers</span>
-  </div>
-</div>
+</section>
 
 
 
- <br><br>
+
+
+
+
+
+
+
 
 
 
@@ -674,9 +899,33 @@ span.text {
 
 
 
+        <br><br>
 
 
+      <!---Counter-->
 
+<div class="wrapper">
+  <div class="containerc">
+    <i class="fab fa-twitter"></i>
+    <span class="num" data-val="350">000</span>
+    <span class="text">Followers</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-facebook-f"></i>
+    <span class="num" data-val="250">000</span>
+    <span class="text">Followers</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-youtube"></i>
+    <span class="num" data-val="325">000</span>
+    <span class="text">Followers</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-instagram"></i>
+    <span class="num" data-val="275">000</span>
+    <span class="text">Followers</span>
+  </div>
+</div>
 <!-- Script -->
 <script>
 
@@ -700,7 +949,7 @@ let counter = setInterval(function () {
 
 
 
-
+<br><br>
 
 
 
