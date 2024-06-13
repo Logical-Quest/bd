@@ -68,7 +68,7 @@
     text-align: left; /* Align the "About Us" text to the left */
 }
   
-  .card-body-head {
+.card-body-head {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -97,8 +97,8 @@
   }
   
   .card-title {
-      justify-content: left;
-      text-align: left;
+      justify-content: center;
+      text-align: center;
   }
   
   .title {
@@ -569,11 +569,11 @@ span.text {
 }
 
 .admission {
-    background: linear-gradient(180deg, #8B5CF6, #6366F1);
+    background-color: #031571;
 }
 
 .hsc {
-    background: linear-gradient(180deg, #EF4444, #F87171);
+    background-color: #6b051d;
 }
 
 .class-10 {
@@ -653,6 +653,270 @@ span.text {
 }
 
 
+<!-----Video------>
+
+.containerv {
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+        
+        .thumbnail {
+            width: 100%;
+            max-width: 800px;
+            cursor: pointer;
+        }
+        
+        .play-button {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 800px;
+            position: relative;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+
+        <!-----Video End------->
+
+        .card-containere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carde {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titlee {
+  color: #d3d3d3;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitlee, .datee {
+  color: #d3d3d3;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.button-containere {
+  margin: 20px 0;
+}
+
+.buttone {
+  display: inline-block;
+  background-color: #d6336c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px 0;
+  width: 55%;
+}
+
+.button.mcqe {
+  background-color: #d6336c;
+}
+
+.button.writtene {
+  background-color: #d6336c;
+}
+
+.footere {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  border-top: 1px solid #d3d3d3;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-linke {
+  color: #d3d3d3;
+  text-decoration: none;
+  margin: 0 10px; /* Add space between the links */
+  font-weight: bold; /* Make the text bold */
+}
+
+.footer-linke:hover {
+  text-decoration: none; /* Ensure there's no underline on hover */
+}
+
+
+
+<!-------Qna-->
+
+#cardsContainerx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cardx {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title-head {
+  color: #5DADE2;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card1 {
+  background-color: #f9f9f9;
+}
+
+.card2 {
+  background-color: #e6e6e6;
+}
+
+.subjectName {
+  color: #4682B4;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.subjectNamea {
+  color: #DC143C;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.difference {
+  color: #DC143C;
+  font-size: 35px;
+  padding: 0;
+  height: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.buttonx {
+  background: #4169E1;
+  border-radius: 999px;
+  box-shadow: #4169E1 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  text-decoration: none;
+}
+
+.buttonx:hover {
+  background-color: #27408B;
+  box-shadow: #27408B 0 10px 20px -10px;
+}
+
+.titleo {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .cardx {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .subjectName, .difference {
+    font-size: 23px;
+  }
+  .buttonx {
+    font-size: 22px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #cardsContainerx {
+    display: block;
+  }
+  .cardx {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .subjectName, .difference {
+    font-size: 22px;
+  }
+  .buttonx {
+    font-size: 21px;
+    padding: 6px 12px;
+  }
+}
+
+
+
+
 
 
 
@@ -700,23 +964,21 @@ span.text {
         </nav>
 
 
-        <!-- Home -->
+<!------- Home ------->
+
         <div class="p-3 blogs-bg" id="home">
             <div class="card mb-3">
               <div class="row">
                 <div class="col-md-6">
                   <div class="slider">
-                 <div class="slides">
-      
-                
-                
-                <img src="img/tutorial.png" class="img-fluid rounded" alt="...">
-                <img src="img/header.png" class="img-fluid rounded" alt="...">
-                <img src="img/exam.png" class="img-fluid rounded" alt="...">
-
-                 </div>
+                    <div class="slides">
+                    <img src="img/tutorial.png" class="img-fluid rounded" alt="...">
+                    <img src="img/header.png" class="img-fluid rounded" alt="...">
+                    <img src="img/exam.png" class="img-fluid rounded" alt="...">
+                    </div>
                  </div>
                 </div>
+
                 <div class="col-md-6">
                   <div class="card-body card-body-head">
                     <h1 class="card-title title-head">Logical Quest</h1>
@@ -746,6 +1008,107 @@ span.text {
         </div>
 
 
+<!------------Video-------------->
+
+<div class="containerv">
+  <img src="img/logo.png" alt="BUET Image" class="thumbnail" id="openModalBtn">
+  <div class="play-button" id="openModalBtn">
+      <img src="path/to/your/play-icon.png" alt="Play Icon">
+  </div>
+</div>
+
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var modal = document.getElementById("videoModal");
+      var openModalBtn = document.querySelectorAll("#openModalBtn");
+      var closeBtn = document.querySelector(".close");
+      var videoFrame = document.getElementById("videoFrame");
+      var videoURL = "https://www.youtube.com/embed/-y-y-elPK9s?si=cgnUehYLSTOg_alN";
+
+      openModalBtn.forEach(function(button) {
+          button.addEventListener("click", function() {
+              videoFrame.src = videoURL;
+              modal.style.display = "block";
+          });
+      });
+
+      closeBtn.addEventListener("click", function() {
+          modal.style.display = "none";
+          videoFrame.src = "";
+      });
+
+      window.addEventListener("click", function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+              videoFrame.src = "";
+          }
+      });
+  });
+</script>
+
+
+
+<!------------Course------------->
+
+
+
+
+
+<!------------QnA------------->
+
+<div style="text-align: center;">
+                <h2 class="contact">Q & A (24/7)</h2>
+              </div>
+
+
+
+  <div id="cardsContainerx">
+    <div class="cardx card1">
+      <div class="subjectName">𝐇𝐒𝐂 (𝐀𝐜𝐚𝐝𝐞𝐦𝐢𝐜)</div><br>
+      <div class="subjectNamea">𝟐𝟒/𝟕</div>
+      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+    </div>
+    <div class="cardx card2">
+      <div class="subjectName">𝐕𝐚𝐫𝐬𝐢𝐭𝐲 𝐀𝐝𝐦𝐢𝐬𝐬𝐢𝐨𝐧</div><br>
+      <div class="subjectNamea">𝟐𝟒/𝟕</div>
+      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+    </div>
+    <div class="cardx card2">
+      <div class="subjectName">𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐀𝐝𝐦𝐢𝐬𝐬𝐢𝐨𝐧</div><br>
+      <div class="subjectNamea">𝟐𝟒/𝟕</div>
+      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+    </div>
+  </div>
+
+
+
+
+<br>
+  <!---------Exam------------>
+  <div class="card-containere">
+    <div class="carde">
+      <div class="titlee">Model Test 1</div>
+      <div class="subtitlee">SUBJECT: BANGLA 1ST (1)</div>
+      <div class="datee">Date: 15/11/2023</div>
+      <div class="button-containere">
+        <a href="#" class="buttone mcq">MCQ Exam</a>
+        <a href="#" class="buttone written">Written Exam</a>
+      </div>
+      <div class="footere">
+        <a href="#rank" class="footer-linke">Rank</a>
+        <a href="#answer-script" class="footer-linke">Answer Script</a>
+        <a href="#solution" class="footer-linke">Solution</a>
+      </div>
+    </div>
+  </div>
+  
 
 
 
@@ -756,23 +1119,79 @@ span.text {
 
 
 
-        <br><br><br><br>
-        <center><h3 class="bengali-texta"><b>" মাধ্যমিক ও উচ্চমাধ্যমিকে অধ্যয়নরত শিক্ষার্থীদের জন্য পূর্ণাঙ্গ গাইডলাইন "</b></h3></center>
 
-        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br><br>
         <div class="card-containerc">
-          <div class="cardc admission">
+        <div class="cardc admission">
               <img src="img/admission.png" alt="HSC Icon">
               <p class="bengali-textb">এডমিশন</p>
           </div>
           <div class="cardc hsc">
-              <h1 class="titleb">11-12</h1>
-              <p class="bengali-textb">একাদশ-দ্বাদশ</p>
+              <h1 class="titleb">12</h1>
+              <p class="bengali-textb">দ্বাদশ শ্রেণি</p>
           </div>
           <div class="cardc class-9">
-              <h1 class="titleb">9-10</h1>
-              <p class="bengali-textb">নবম-দশম</p>
+              <h1 class="titleb">11</h1>
+              <p class="bengali-textb">একাদশ শ্রেণি</p>
           </div>
+          <div class="cardc hsc">
+            <h1 class="titleb">10</h1>
+            <p class="bengali-textb">দশম শ্রেণি</p>
+        </div>
+        <div class="cardc class-9">
+            <h1 class="titleb">9</h1>
+            <p class="bengali-textb">নবম শ্রেণি</p>
+        </div>
       </div>
 
 
@@ -793,7 +1212,7 @@ span.text {
 
 
         <!--------------------------campus----------------------------------------->
-<section class="campus">
+<!---<section class="campus">
   <h1>Our Global Campus</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   
@@ -856,16 +1275,10 @@ span.text {
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
-                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <img src="https://placehold.co/400x600/png" class="card-img-top profile-card-img-top" alt="...">
                 <div class="card profile-card">
                   <div class="card-body">
-                    <h5 class="card-title profile-card-title">Name Name Name</h5>
-                    <p class="card-text profile-card-text">18 Series</p>
-                    
-                    <p class="contact-text">
-                      <strong>Contact: </strong><a href="#">123456789</a><br>
-                      <strong>Email: </strong><a href="#">saer@email.com</a>
-                    </p>
+                    <h5 class="card-title profile-card-title">Q & A</h5>
                   </div>
                 </div>
               </div>
@@ -932,24 +1345,19 @@ span.text {
 
 <div class="wrapper">
   <div class="containerc">
-    <i class="fab fa-twitter"></i>
-    <span class="num" data-val="350">000</span>
-    <span class="text">Followers</span>
+    <i class="fab fa-"></i>
+    <span class="num" data-val="2">00</span>
+    <span class="text">Courses</span>
   </div>
   <div class="containerc">
-    <i class="fab fa-facebook-f"></i>
-    <span class="num" data-val="250">000</span>
-    <span class="text">Followers</span>
+    <i class="fab fa-"></i>
+    <span class="num" data-val="20">00</span>
+    <span class="text">Tutorials</span>
   </div>
   <div class="containerc">
-    <i class="fab fa-youtube"></i>
-    <span class="num" data-val="325">000</span>
-    <span class="text">Followers</span>
-  </div>
-  <div class="containerc">
-    <i class="fab fa-instagram"></i>
-    <span class="num" data-val="275">000</span>
-    <span class="text">Followers</span>
+    <i class="fab fa-chalkboard-user"></i>
+    <span class="num" data-val="15">00</span>
+    <span class="text">Teachers</span>
   </div>
 </div>
 <!-- Script -->
