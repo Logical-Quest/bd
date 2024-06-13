@@ -975,6 +975,36 @@ span.text {
 }
 
 
+.containerh {
+    position: relative;
+    display: inline-block;
+  }
+
+  .imageh {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .containerh.show .overlay {
+    display: block;
+  }
+
+
 
 
 
@@ -1068,6 +1098,26 @@ span.text {
         </div>
 
 
+
+
+
+   <!------------Partner------------------>
+   <div style="text-align: center;">
+    <h2 class="contact">Official Partner</h2>
+  </div>
+  <div class="containerh" onclick="toggleOverlay()">
+    <img src="img/hyperlearn.png" alt="Description of image" class="imageh">
+    <div class="overlay">hyperlearn Prodigy Institute</div>
+  </div>
+
+  <script>
+    function toggleOverlay() {
+      const container = document.querySelector('.containerh');
+      container.classList.toggle('show');
+    }
+  </script>
+
+
 <!------------Video-------------->
 
 <div class="containerv">
@@ -1114,6 +1164,10 @@ span.text {
       });
   });
 </script>
+
+
+
+
 
 
 
