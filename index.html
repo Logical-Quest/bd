@@ -663,9 +663,14 @@ span.text {
 }
 
 .thumbnail {
-    width: 100%;
-    max-width: 800px;
+    width: 85%; /* Occupy full width of its container */
+    max-width: 85%; /* Ensure image does not exceed its natural size */
+    height: auto; /* Maintain aspect ratio */
     cursor: pointer;
+    border: 5px solid #031571; /* Red border around the image */
+    border-radius: 10px; /* Rounded corners */
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center align horizontally */
 }
 
 .play-button {
@@ -1121,7 +1126,7 @@ span.text {
 <!------------Video-------------->
 
 <div class="containerv">
-  <img src="img/logo.png" alt="BUET Image" class="thumbnail" id="openModalBtn">
+  <img src="img/info.gif" alt="BUET Image" class="thumbnail" id="openModalBtn">
   <div class="play-button" id="openModalBtn">
       <img src="" alt="">
   </div>
