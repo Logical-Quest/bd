@@ -28,7 +28,7 @@
       background: #373B44;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(to top, #4286f4, #373B44);
-      background: #2C3E50;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #072b50;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       font-family: 'Poppins', sans-serif;
       margin: 0;
       text-align: center;
@@ -39,11 +39,25 @@
   #blog {
       background: none; /* Remove existing background color or image */
   }
+
+  #bloga {
+      background: #365271; /* Remove existing background color or image */
+  }
+  #services {
+      background: #283c53; /* Remove existing background color or image */
+  }
+  #counterbackground{
+    background: #2e5c8f;
+  }
+  #mentorbg{
+    background: #54a9b2;
+  }
+  
   
 
   
   .title-head {
-    color: #5DADE2; /* Keep the color for "Logical Quest" */
+    color: #072b50; /* Keep the color for "Logical Quest" */
     font-family: 'Nunito', sans-serif; /* Use the font family for "Our Blogs" */
     font-weight: 700;
     font-size: 40px;
@@ -79,11 +93,11 @@
   }
   
   .title-head {
-      color: #2471A3;
+      color: #01E3D2;
   }
   
   .title-text {
-      font-size: 18px;
+      font-size: 19px;
   }
   .about-text {
       font-size: 18px;
@@ -157,7 +171,51 @@
   .btn-primary {
       border-radius: 2em;
   }
+
   
+
+
+
+  .button-container {
+  display: flex;
+  justify-content: space-between; /* Aligns items with space in between */
+  max-width: 400px; /* Adjust max-width to your container width */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #100571;
+}
+
+.text-bg-dark {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.text-bg-dark:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
   .profile-holder {
       margin: -80px 0 0 0;
   }
@@ -176,7 +234,7 @@
   }
   
   footer {
-      background-color: #060533;
+      background-color: #05213e;
       color: #f5f5f5;
       padding: 20px 0;
       text-align: center;
@@ -198,12 +256,6 @@
   .bengali-text {
             font-family: 'Hind Siliguri', sans-serif;
         }
-
-        .embedded-video-16-9 {
-  width:  90vw; /* Sets the width of the video to 90% of the viewport width */
-  height: 50.625vw; /* Sets the height of the video to 50.625% of the viewport width (maintaining 16:9 aspect ratio) */
-  margin: 0 auto; /* Centers the video horizontally */
-}
 
 .line {
   width: 100%;
@@ -466,393 +518,6 @@ span.text {
   }
 }
 
-/*---------------------------campus------------------------------*/
-
-
-.campus{
-    width: 80%;
-    margin:auto;
-    text-align: center;
-    padding-top: 50px;       
-}
-.campus-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position:relative;
-    overflow: hidden;
-}
-.campus-col img{
-    width:100%;
-    display: block;
-}
-.layer{
-    background: trasparent;
-    height: 100%;
-    width:100%;
-    position: absolute;
-    top: 0;
-    left: o;
-    transition: 0.5s;
-}
-.layer:hover{
-    background: rgba(226,0,0,0.7);
-}
-.layer h3{
-    width:100%;
-    font-weight: 500;
-    color:#fff;
-    font-size:26px;
-    bottom: 0;
-    left:50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-.layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-}
-@media screen and (max-width: 992px) {
-  .campus-col {
-    flex-basis: 48%; /* Adjust the column width for medium screens */
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .campus-col {
-    flex-basis: 100%; /* Display columns as full-width for small screens */
-  }
-}
-
-
-
-
-
-
-
-.card-containerc {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.cardc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 200px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.cardc:hover {
-  background-color: #333; /* Change background color on hover */
-  transform: scale(1.05); /* Scale up the card slightly on hover */
-}
-.cardc img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-.cardc p {
-    margin: 0;
-    font-size: 18px;
-}
-
-.admission {
-    background-color: #031571;
-}
-
-.hsc {
-    background-color: #6b051d;
-}
-
-.class-10 {
-    background: linear-gradient(180deg, #8B5CF6, #A78BFA);
-}
-
-.class-9 {
-    background: linear-gradient(180deg, #3B82F6, #60A5FA);
-}
-
-.class-8 {
-    background: linear-gradient(180deg, #F59E0B, #FBBF24);
-}
-
-/* Media Queries */
-@media (max-width: 1200px) {
-    .cardc {
-        width: 130px;
-        height: 180px;
-    }
-
-    .cardc p {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 992px) {
-    .cardc {
-        width: 120px;
-        height: 170px;
-    }
-
-    .cardc p {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    .cardc {
-        width: 100px;
-        height: 150px;
-    }
-
-    .cardc p {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 576px) {
-    .card-containerc {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cardc {
-        width: 90%;
-        max-width: 300px;
-        height: auto;
-        padding: 20px;
-    }
-
-    .cardc img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .cardc p {
-        font-size: 20px;
-    }
-}
-.bengali-texta{
-  color: #5DADE2;
-  font-family: 'Baloo Da', cursive;
-}
-.bengali-textb{
-  font-family: 'Baloo Da', cursive;
-}
-
-
-<!-----Video------>
-
-.containerv {
-    position: relative;
-    width: fit-content;
-    margin: auto;
-}
-
-.thumbnail {
-    width: 85%; /* Occupy full width of its container */
-    max-width: 85%; /* Ensure image does not exceed its natural size */
-    height: auto; /* Maintain aspect ratio */
-    cursor: pointer;
-    border: 5px solid #031571; /* Red border around the image */
-    border-radius: 10px; /* Rounded corners */
-    display: block; /* Ensure it behaves as a block element */
-    margin: 0 auto; /* Center align horizontally */
-}
-
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 60px;
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 800px;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* Add responsiveness */
-@media screen and (max-width: 768px) {
-    .modal-content {
-        width: 90%;
-        padding: 10px;
-    }
-
-    .close {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .modal-content {
-        width: 95%;
-        padding: 10px;
-    }
-
-    .close {
-        font-size: 20px;
-    }
-}
-
-
-
-        <!-----Video End------->
-
-.card-containere {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 30px;
-}
-
-.carde {
-  background-color: #333;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  width: 400px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  vertical-align: top;
-}
-
-.titlee {
-  color: #d3d3d3;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.subtitlee, .datee {
-  color: #d3d3d3;
-  font-size: 14px;
-  margin: 10px 0;
-}
-
-.button-containere {
-  margin: 20px 0;
-}
-
-.buttone {
-  display: inline-block;
-  background-color: #d6336c;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-size: 14px;
-  margin: 5px 0;
-  width: 55%;
-}
-
-.button.mcqe {
-  background-color: #d6336c;
-}
-
-.button.writtene {
-  background-color: #d6336c;
-}
-
-.footere {
-  color: #ffffff;
-  font-size: 18px;
-  margin-top: 20px;
-  border-top: 1px solid #d3d3d3;
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.footer-linke {
-  color: #d3d3d3;
-  text-decoration: none;
-  margin: 0 10px; /* Add space between the links */
-  font-weight: bold; /* Make the text bold */
-}
-
-.footer-linke:hover {
-  text-decoration: none; /* Ensure there's no underline on hover */
-}
-/* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
-  .carde {
-    width: calc(50% - 20px); /* Two cards per row on smaller screens */
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .carde {
-    width: calc(100% - 20px); /* Single card per row on very small screens */
-  }
-}
 
 
 
@@ -878,7 +543,7 @@ span.text {
 }
 
 .title-head {
-  color: #5DADE2;
+  color: hsl(210, 45%, 41%);
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -1011,6 +676,71 @@ span.text {
 
 
 
+.containerm {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+
+.sliderm {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.mentor {
+  box-sizing: border-box;
+  padding: 20px;
+  flex: 0 0 25%;
+}
+.mentor img {
+  width: 100%;
+  border-radius: 10px;
+}
+.mentor p {
+  margin: 10px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mentor span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .mentor {
+      flex: 0 0 50%;
+  }
+}
+@media (max-width: 480px) {
+  .mentor {
+      flex: 0 0 100%;
+  }
+}
+
+
+
 
 
 
@@ -1042,16 +772,16 @@ span.text {
                   <a class="nav-link" href="#blog">𝐂𝐨𝐮𝐫𝐬𝐞</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#advisors">𝐄𝐧𝐫𝐨𝐥𝐥</a>
+                  <a class="nav-link" href="#blog">𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://logical-quest.github.io/HSC-Q-A/">𝐐 & 𝐀</a>
+                  <a class="nav-link" href="https://logical-quest.github.io/QnA/">𝐐 & 𝐀</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#members">𝐄𝐱𝐚𝐦</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://logical-quest.github.io/HSC-Teacher-Portal/">𝐀𝐝𝐦𝐢𝐧</a>
+                  <a class="nav-link" href="https://logical-quest.github.io/Admin/">𝐀𝐝𝐦𝐢𝐧</a>
                 </li>
               </ul>
             </div>
@@ -1061,7 +791,7 @@ span.text {
 
 <!------- Home ------->
 
-        <div class="p-3 blogs-bg" id="home">
+        <div class="p-3" id="home">
             <div class="card mb-3">
               <div class="row">
                 <div class="col-md-6">
@@ -1077,13 +807,13 @@ span.text {
                 <div class="col-md-6">
                   <div class="card-body card-body-head">
                     <h1 class="card-title title-head">Logical Quest</h1>
-                    <p class="card-text title-text bengali-text">একাডেমিক পড়াশোনা, ভর্তি পরীক্ষাসহ
+                    <p class="card-text title-text bengali-text">একাডেমিক পড়াশোনা, স্কিল ডেভেলপমেন্ট, ভর্তি পরীক্ষাসহ
                       যেকোনো প্রতিযোগিতামূলক পরীক্ষার প্রস্তুতির সকল সমাধান পাওয়া যাবে এখানে। ঘরে বসেই
                       ক্লাসের পড়া ভালোভাবে বুঝতে অভিজ্ঞ মেন্টরদের ভিডিও লেসন, প্র্যাকটিস 𝐌𝐂𝐐 টেস্ট, সার্বক্ষণিক
-                      𝐐 & 𝐀 সেবা ও নোটের মাধ্যমে শিক্ষার্থীদের এগিয়ে রাখতে ABC এর যাত্রা শুরু।
+                      𝐐 & 𝐀 সেবা ও নোটের মাধ্যমে শিক্ষার্থীদের এগিয়ে রাখতে এর যাত্রা শুরু।
                   </p>
                   <div class="btn-conteiner">
-                    <a class="btn-content" href="#">
+                    <a class="btn-content" href="https://wa.me/01717908063">
                       <span class="btn-title">𝐋𝐞𝐭'𝐬 𝐓𝐚𝐥𝐤</span>
                       <span class="icon-arrow">
                         <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1100,46 +830,10 @@ span.text {
                 </div>
               </div>
             </div>
-        </div>
+        </div><br>
 
 
 
-
-
-   <!------------Partner------------------>
-   <div style="text-align: center;">
-    <h2 class="contact">Official Partner</h2>
-  </div>
-  <div class="containerh" onclick="toggleOverlay()">
-    <img src="img/hyperlearn.png" alt="Description of image" class="imageh">
-    <div class="overlay">hyperlearn Prodigy Institute</div>
-  </div>
-
-  <script>
-    function toggleOverlay() {
-      const container = document.querySelector('.containerh');
-      container.classList.toggle('show');
-    }
-  </script>
-
-
-<!------------Video-------------->
-
-<div class="containerv">
-  <img src="img/info.gif" alt="BUET Image" class="thumbnail" id="openModalBtn">
-  <div class="play-button" id="openModalBtn">
-      <img src="" alt="">
-  </div>
-</div>
-
-<div id="videoModal" class="modal">
-  <div class="modal-content">
-      <span class="close">&times;</span>
-      <div class="video-container">
-          <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-  </div>
-</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -1177,183 +871,114 @@ span.text {
 
 
 
-<!------------Course------------->
+<div class="p-3 blogs-bg" id="bloga">
+  <div style="text-align: center;">
+   <br>
+   <h2 class="contact">Our Courses</h2><br>
+ </div>
+ 
+   <div class="container">
+     <div class="row">
+ 
+       
+       <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+         <div class="card">
+           <img src="img/cad.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h3 class="card-title">𝗖𝗔𝗗 𝗠𝗮𝘀𝘁𝗲𝗿𝘆: 𝗔 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗔𝘂𝘁𝗼𝗖𝗔𝗗</h3>
+             <p class="card-text">Key features: <br>
+               ★ Cutting-Edge Curriculum: "Stay ahead with a curriculum designed by industry expert<br> 
+               ★ Hands-On training: Get practical experience with real world projects<br>
+               <div class="card-footer text-body-secondary d-flex justify-content-between">
+                <a href="#" class="btn text-bg-dark">Details</a>
+               <a href="https://hpi-access.vercel.app/" class="btn text-bg-dark">Enroll</a>
+               </div>         
+             </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="img/cad.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">𝗖𝗔𝗗 𝗠𝗮𝘀𝘁𝗲𝗿𝘆: 𝗔 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗔𝘂𝘁𝗼𝗖𝗔𝗗</h3>
+              <p class="card-text">Key features: <br>
+                ★ Cutting-Edge Curriculum: "Stay ahead with a curriculum designed by industry expert<br> 
+                ★ Hands-On training: Get practical experience with real world projects<br>
+                <div class="card-footer text-body-secondary d-flex justify-content-between">
+                 <a href="#" class="btn text-bg-dark">Details</a>
+                <a href="https://hpi-access.vercel.app/" class="btn text-bg-dark">Enroll</a>
+                </div>         
+              </div>
+           </div>
+         </div>
+
+         <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="img/cad.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">𝗖𝗔𝗗 𝗠𝗮𝘀𝘁𝗲𝗿𝘆: 𝗔 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗔𝘂𝘁𝗼𝗖𝗔𝗗</h3>
+              <p class="card-text">Key features: <br>
+                ★ Cutting-Edge Curriculum: "Stay ahead with a curriculum designed by industry expert<br> 
+                ★ Hands-On training: Get practical experience with real world projects<br>
+                <div class="card-footer text-body-secondary d-flex justify-content-between">
+                 <a href="#" class="btn text-bg-dark">Details</a>
+                <a href="https://hpi-access.vercel.app/" class="btn text-bg-dark">Enroll</a>
+                </div>         
+              </div>
+           </div>
+         </div>
+       
+ 
+     </div>
+   </div>
+   
+ 
+ </div>
+ 
+ 
+ 
+ 
 
 
 
 
 
-<!------------QnA------------->
+
+
+<div id="services">
+  <br>
 
 <div style="text-align: center;">
-                <h2 class="contact">Q & A</h2>
-              </div>
+                <h2 class="contact">Our Services</h2>
+              </div><br>
 
 
 
   <div id="cardsContainerx">
     <div class="cardx card1">
-      <div class="subjectName">𝐇𝐒𝐂 (𝐀𝐜𝐚𝐝𝐞𝐦𝐢𝐜)</div><br>
-      <div class="subjectNamea">𝟐𝟒/𝟕</div>
+      <div class="subjectName">𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥</div><br>
+      <div class="subjectNamea"></div>
       <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
     </div>
     <div class="cardx card2">
-      <div class="subjectName">𝐕𝐚𝐫𝐬𝐢𝐭𝐲 𝐀𝐝𝐦𝐢𝐬𝐬𝐢𝐨𝐧</div><br>
-      <div class="subjectNamea">𝟐𝟒/𝟕</div>
-      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+      <div class="subjectName">𝐐 & 𝐀</div><br>
+      <div class="subjectNamea"></div>
+      <a href="https://logical-quest.github.io/QnA/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
     </div>
     <div class="cardx card2">
-      <div class="subjectName">𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐀𝐝𝐦𝐢𝐬𝐬𝐢𝐨𝐧</div><br>
-      <div class="subjectNamea">𝟐𝟒/𝟕</div>
+      <div class="subjectName">𝐄𝐱𝐚𝐦</div><br>
+      <div class="subjectNamea"></div>
       <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
     </div>
   </div>
-
-
-
-
-<br>
-  <!---------Exam------------>
-
-
-  <div style="text-align: center;">
-    <h2 class="contact">Exam</h2>
-  </div>
-  <div class="card-containere">
-    <div class="carde">
-      <div class="titlee">Model Test 1</div>
-      <div class="subtitlee">SUBJECT: PHYSICS 1ST (1)</div>
-      <div class="datee">Date: 11/06/2024</div>
-      <div class="button-containere">
-        <a href="#" class="buttone mcq">MCQ Exam</a>
-        <a href="#" class="buttone written">Written Exam</a>
-      </div>
-      <div class="footere">
-        <a href="#" class="footer-linke">Rank</a>
-        <a href="#" class="footer-linke">Answer Script</a>
-        <a href="#" class="footer-linke">Solution</a>
-      </div>
-    </div>
-  </div>
-  
-
-<!-----Class Card------>
-
-        <br><br>
-        <div class="card-containerc">
-        <div class="cardc admission">
-              <img src="img/admission.png" alt="HSC Icon">
-              <p class="bengali-textb">এডমিশন</p>
-          </div>
-          <div class="cardc hsc">
-              <h1 class="titleb">12</h1>
-              <p class="bengali-textb">দ্বাদশ শ্রেণি</p>
-          </div>
-          <div class="cardc class-9">
-              <h1 class="titleb">11</h1>
-              <p class="bengali-textb">একাদশ শ্রেণি</p>
-          </div>
-          <div class="cardc hsc">
-            <h1 class="titleb">10</h1>
-            <p class="bengali-textb">দশম শ্রেণি</p>
-        </div>
-        <div class="cardc class-9">
-            <h1 class="titleb">9</h1>
-            <p class="bengali-textb">নবম শ্রেণি</p>
-        </div>
-      </div>
-
-
-        <!-- Members -->
- 
-          
-  
-          <div class="container">
-            <div class="row">
-
-              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
-                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
-                <div class="card profile-card">
-                  <div class="card-body">
-                    <h5 class="card-title profile-card-title">Name Name Name</h5>
-                    <p class="card-text profile-card-text">18 Series</p>
-                    
-                    <p class="contact-text">
-                      <strong>Contact: </strong><a href="#">123456789</a><br>
-                      <strong>Email: </strong><a href="#">saer@email.com</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
-                <img src="https://placehold.co/400x600/png" class="card-img-top profile-card-img-top" alt="...">
-                <div class="card profile-card">
-                  <div class="card-body">
-                    <h5 class="card-title profile-card-title">Q & A</h5>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
-                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
-                <div class="card profile-card">
-                  <div class="card-body">
-                    <h5 class="card-title profile-card-title">Name Name Name</h5>
-                    <p class="card-text profile-card-text">18 Series</p>
-                    
-                    <p class="contact-text">
-                      <strong>Contact: </strong><a href="#">123456789</a><br>
-                      <strong>Email: </strong><a href="#">saer@email.com</a>
-                    </p>
-                    
-                    
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
-                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
-                <div class="card profile-card">
-                  <div class="card-body">
-                    <h5 class="card-title profile-card-title">Name Name Name</h5>
-                    <p class="card-text profile-card-text">18 Series</p>
-                    
-                    <p class="contact-text">
-                      <strong>Contact: </strong><a href="#">123456789</a><br>
-                      <strong>Email: </strong><a href="#">saer@email.com</a>
-                    </p>
-                    
-                    
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-  
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <br><br>
+  <br><br>
+</div>
 
 
       <!---Counter-->
-
+<div id="counterbackground">
+  <br><br>
 <div class="wrapper">
   <div class="containerc">
     <i class="fab fa-"></i>
@@ -1364,6 +989,11 @@ span.text {
     <i class="fab fa-"></i>
     <span class="num" data-val="20">00</span>
     <span class="text">Tutorials</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-"></i>
+    <span class="num" data-val="165">00</span>
+    <span class="text">Q & A</span>
   </div>
   <div class="containerc">
     <i class="fab fa-chalkboard-user"></i>
@@ -1389,12 +1019,82 @@ let counter = setInterval(function () {
   }
 }, duration);
 });
-</script>
+</script><br><br></div>
 
 
 
 
-<br><br>
+<!-------
+<div id="mentorbg"><br>
+<div class="containerm">
+  <h2 class="contact">Our Mentors</h2>
+<div class="sliderm" id="sliderm">
+  <div class="mentor">
+    <img src="img/mosiur.jpg" alt="Mosiur Rahman">
+    <p>Mosiur Rahman</p>
+    <span>BUET</span>
+</div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Tasnim Hayat">
+      <p>Reshad Mahamud</p>
+      <span>RUET</span>
+  </div>
+  <div class="mentor">
+      <img src="img/rahat.jpg" alt="Nazrul Islam Rahat">
+      <p>Nazrul Islam Rahat</p>
+      <span>BUET</span>
+  </div>
+</div>
+<div class="controls">
+  <button onclick="prevSlide()">&#10094;</button>
+  <button onclick="nextSlide()">&#10095;</button>
+</div>
+</div>
+
+<script>
+const slider = document.getElementById('sliderm');
+const totalMentors = document.querySelectorAll('.mentor').length;
+let index = 0;
+
+function getVisibleMentors() {
+  if (window.innerWidth <= 480) {
+      return 1;
+  } else if (window.innerWidth <= 768) {
+      return 2;
+  } else {
+      return 4;
+  }
+}
+
+function nextSlide() {
+  const visibleMentors = getVisibleMentors();
+  if (index < totalMentors - visibleMentors) {
+      index++;
+  } else {
+      index = 0;
+  }
+  slider.style.transform = `translateX(${-index * (100 / visibleMentors)}%)`;
+}
+
+function prevSlide() {
+  const visibleMentors = getVisibleMentors();
+  if (index > 0) {
+      index--;
+  } else {
+      index = totalMentors - visibleMentors;
+  }
+  slider.style.transform = `translateX(${-index * (100 / visibleMentors)}%)`;
+}
+
+setInterval(nextSlide, 3000); // Change slide every 3 seconds
+
+window.addEventListener('resize', () => {
+  // Reset index to 0 on resize to prevent misalignment
+  index = 0;
+  slider.style.transform = 'translateX(0)';
+});
+</script><br></div>--->
+
 
 
 
@@ -1418,8 +1118,8 @@ let counter = setInterval(function () {
               </div>
 
               <div class="col-lg-4 col-sm-12" style="text-align: left;">
-                <p><b>Email:</b> <a href="mailto:logical.quest.bd.2023@gmail.com">abc@gmail.com</a></p>
-                <p><b>Call us:</b> <a href="tel:+8801728174078">+88017xxxxxxxx</a></p>
+                <p><b>Email:</b> <a href="mailto:logical.quest.bd.2023@gmail.com">logical.quest.bd@gmail.com</a></p>
+                <p><b>Call us:</b> <a href="tel:+8801717908063">+8801728174078</a></p>
               </div>
           
             </div>
