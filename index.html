@@ -744,6 +744,31 @@ span.text {
 
 
 
+            /* Floating button styles */
+    .floating-button {
+  position: fixed;
+  bottom: calc(15px + 0.2in);
+  right: 20px;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.floating-button:hover {
+  background-position: right center;
+  text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -1178,6 +1203,12 @@ window.addEventListener('resize', () => {
   
       setInterval(slideNext, 3000); // Change image every 3 seconds
     </script>
+
+    <a href="https://m.me/112305917227763">
+  <div id="scrollToBottomBtn" class="floating-button">
+    <i class="fas fa-comments"></i>
+  </div>
+</a>
 
 </body>
     
